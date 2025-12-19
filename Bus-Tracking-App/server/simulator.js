@@ -1,4 +1,8 @@
-
+/**
+ * Simulates a moving driver by generating a real driving route using the
+ * Google Maps Directions API, decoding the route into GPS coordinates,
+ * and sending location updates every second to a local backend API.
+ */
 
 const axios = require("axios");
 const polyline = require("@mapbox/polyline"); // npm install @mapbox/polyline
