@@ -16,8 +16,6 @@
 | route_id (FK)       |
 | status              |
 | current_location    |
-| speed               |
-| last_updated        |
 +---------------------+
 
 +---------------------+
@@ -25,6 +23,5 @@
 |---------------------|
 | price_id            |
 | route_id (FK)       |
-| base_fare           |
-| per_distance_rate   |
+| base_fare           |  
 +---------------------+

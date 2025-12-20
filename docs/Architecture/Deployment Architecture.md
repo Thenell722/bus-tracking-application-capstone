@@ -5,7 +5,7 @@
 
 +------------------------------+
 |        User Device           |
-|  Android / iOS / Emulator    |
+|  Android / Emulator          |
 +---------------+--------------+
                 |
                 v
@@ -17,8 +17,6 @@
           +--------+---------+
           | Backend Server   |
           | Node + Express   |
-          | Hosted: Render / |
-          | Heroku / Azure   |
           +--------+---------+
                    |
         +----------+----------+
