@@ -1,9 +1,9 @@
 import SearchBar from "@/components/SearchBar";
-import polyline from "@mapbox/polyline"; // ⬅️ decoder for Google polyline
+import polyline from "@mapbox/polyline"; // decoder for Google polyline
 import React, { useEffect, useState } from "react";
-import { Image, StatusBar, StyleSheet, View } from "react-native"; // ⚡ Added Animated
+import { Image, StatusBar, StyleSheet, View } from "react-native"; // Added Animated
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import MapView, { AnimatedRegion, Marker, Polyline, PROVIDER_GOOGLE } from "react-native-maps"; // ⚡ Added AnimatedRegion
+import MapView, { AnimatedRegion, Marker, Polyline, PROVIDER_GOOGLE } from "react-native-maps"; //Added AnimatedRegion
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { Driver, getAllDrivers } from "../libraries/DriverService";
 import DragMenu from "@/components/DragMenu";
